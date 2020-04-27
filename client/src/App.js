@@ -102,8 +102,11 @@ class App extends Component {
 
     return (
       <div className="App">
-        <h1>This is LEARN Academy Pre-work course</h1>
         <section className="playground">
+        <h1 id="title">This is LEARN Academy Pre-work course</h1>
+        <br />
+        <br />
+        <br />
           <div className="code-editor html-code">
             <div className="editor-header">HTML</div>
             <CodeMirror
